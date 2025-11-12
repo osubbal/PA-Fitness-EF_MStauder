@@ -6,7 +6,27 @@ A repository containing the code used for "The role of age and physical fitness 
 
 - Coding Language: [R]
 - Version: [version 4.1.1]
-- Required Packages: 
+- Required Packages:
+    library(dplyr)
+    library(psych)
+    library(tidyr)
+    library(ggpubr)
+    library(e1071)
+    library(tidyverse)
+    library(Hmisc)
+    library(caret)
+    library(mice)
+    library(VIM)
+    library(ltm)
+    library(lavaan)
+    library("PerformanceAnalytics")
+    library(broom)
+    library(lmtest)
+    library(car)
+    library(relaimpo)
+    library(ggpubr)
+    library(ggpattern)
+    library(process)
 
 # Usage
 
@@ -17,6 +37,7 @@ How to Use:
 - To run this code, you will use the attached R code and HCP Lifespan 2.0 Data release (available at [https://www.humanconnectome.org/study/hcp-lifespan-aging]).
 
 # BBAL File Paths
- - Dataset: 
- - Dataset Documentation: 
- - Script:   
+ - Dataset: "\Projects\BADS_2021E0199\HCP\Matthew_Masters\Raw-Data"
+ - Dataset Documentation: "\Projects\BADS_2021E0199\HCP\Matthew_Masters\Literature\$HCP&Methodology"
+         *Folder contains documentation for HCP project, HCP supplemental material, and LS 2.0 data release ("LS_2.0_Release_Appendix_1" and "LS_2.0_Release_Appendix_2") + access instructions
+ - Script:   "\Projects\BADS_2021E0199\HCP\Matthew_Masters\Scripts\2025-11-03_Stauder_HCPA_Dataset-&-Analysis-Script_Github.R"
